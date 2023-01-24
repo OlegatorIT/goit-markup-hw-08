@@ -1,0 +1,145 @@
+// .footer {
+//   background: var(--secondary-background-color);
+//   padding: 60px 0;
+// }
+
+// .footer .logo__studio {
+//   color: var(--white-color-text);
+// }
+
+// .box-footer {
+//   display: flex;
+//   align-items: baseline;
+// }
+
+// .address {
+//   margin-top: 20px;
+// }
+
+// .footer-item:not(:first-child) {
+//   margin-top: 9px;
+// }
+
+// .footer-address {
+//   color: var(--white-color-text);
+//   line-height: 1.71;
+//   font-style: normal;
+//   text-decoration: none;
+// }
+
+// .footer-contact {
+//   color: rgba(255, 255, 255, 0.6);
+//   text-decoration: none;
+//   line-height: 1.71;
+//   font-style: normal;
+//   transition: color var(--primary-duration-timing);
+//   &:hover,
+//   &:focus {
+//     color: var(--active-color);
+//   }
+// }
+
+// /* social icon */
+
+// .box-soc-footer {
+//   margin-left: 70px;
+// }
+
+// .soc-title {
+//   font-weight: 700;
+//   line-height: 1.14;
+//   text-transform: uppercase;
+//   color: var(--white-color-text);
+// }
+
+// .soc-icon-footer-list {
+//   margin-top: 20px;
+//   gap: 10px;
+//   display: flex;
+
+//   [href] {
+//     transition: background-color var(--primary-duration-timing);
+//   }
+
+//   [href]:hover,
+//   [href]:focus {
+//     background-color: var(--active-color);
+//   }
+// }
+
+// .item-icon-footer {
+//   width: 44px;
+//   height: 44px;
+// }
+
+// .footer-soc-linc {
+//   width: 100%;
+//   height: 100%;
+//   border-radius: 50%;
+//   @extend %align-list;
+//   justify-content: center;
+//   background: rgba(255, 255, 255, 0.1);
+// }
+
+// .soc-icon-footer {
+//   fill: var(--primary-background-color);
+// }
+
+// .subscription-wrap {
+//   margin-left: 93px;
+// }
+
+// .subscription-text {
+//   font-weight: 700;
+//   line-height: calc(16 / 14);
+//   text-transform: uppercase;
+//   color: var(--white-color-text);
+// }
+
+// .subscription-input {
+//   width: 358px;
+//   height: 50px;
+//   padding: 15px 16px;
+//   background-color: var(--secondary-background-color);
+//   border: 1px solid rgba(255, 255, 255, 0.3);
+//   border-radius: 4px;
+// }
+
+// .subscription-input:not(:placeholder-shown) {
+//   background-color: var(--primary-background-color);
+//   font-size: 20px;
+// }
+
+// .subscription-input::placeholder {
+//   font-size: 16px;
+//   line-height: calc(20 / 16);
+//   color: rgba(255, 255, 255, 0.6);
+// }
+
+// .subscription-form {
+//   display: flex;
+//   margin-top: 20px;
+// }
+
+// .send-button {
+//   background-color: var(--active-color);
+//   font-weight: 700;
+//   font-size: 16px;
+//   line-height: calc(30 / 16);
+//   letter-spacing: 0.06em;
+//   color: var(--white-color-text);
+//   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+//   border-radius: 4px;
+//   padding: 10px 28px;
+//   cursor: pointer;
+//   @extend %align-list;
+//   justify-content: center;
+//   margin-left: 12px;
+// }
+
+// .send-icon {
+//   fill: var(--white-color-text);
+//   margin-left: 10px;
+//   width: 100%;
+//   height: 100%;
+// }

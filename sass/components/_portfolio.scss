@@ -1,0 +1,125 @@
+.portfolio {
+   padding: 60px 0;
+  @media screen and (min-width: 1200px) {
+    max-width: 1200px;
+    padding: 94px 0;
+  }
+}
+
+.list-filter {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.button-filter {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  color: var(--secondary-text-color);
+  background: var(--filrer-button-background-color);
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 6px 22px;
+  transition: background-color, color, box-shadow,
+    var(--primary-duration-timing);
+  &:hover,
+  &:focus {
+    background-color: var(--active-color);
+    color: var(--white-color-text);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+  }
+}
+
+/* <!-- examples of our works --> */
+
+.examples-list {
+  margin-top: 30px;
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  @media screen and (min-width: 1200px) {
+    max-width: 1200px;
+  }
+}
+
+.examples-list img {
+  display: block;
+}
+
+.examples-link {
+  display: block;
+  text-decoration: none;
+  transition: box-shadow var(--primary-duration-timing);
+  &:hover,
+  &:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
+}
+
+.examples-item{
+  margin-top: 30px;
+    @media screen and (min-width: 768px) {
+    max-width: 768px;
+    width: calc((768px-90px)/3);
+    margin-top: 0;
+  }
+  @media screen and (min-width: 1200px) {
+    max-width: 1200px;
+    width: 270px;
+  }
+}
+
+.examples-top-box {
+  position: relative;
+  overflow: hidden;
+}
+
+.examples-top-text {
+  font-size: 18px;
+  line-height: 1.56;
+  color: var(--white-color-text);
+  background: rgba(33, 150, 243, 0.9);
+  transition: transform var(--primary-duration-timing);
+
+  position: absolute;
+  top: 0;
+  padding: 63px 24px;
+  height: 100%;
+  transform: translateY(101%);
+  width: 100%;
+  overflow: auto;
+
+  .examples-link:hover &,
+  .examples-link:focus & {
+    transform: translateY(0);
+  }
+}
+
+.examples-box {
+  border: 1px solid #eeeeee;
+  border-top: none;
+  padding: 20px 24px;
+}
+
+.examples-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--secondary-text-color);
+}
+
+.examples-text {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--primary-text-color);
+
+  margin-top: 4px;
+}
