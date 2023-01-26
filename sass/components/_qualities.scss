@@ -51,6 +51,10 @@
   text-transform: uppercase;
   color: var(--secondary-text-color);
   margin-top: 30px;
+  text-align: center;
+  @include tablet{
+    text-align-last: left;
+  }
 }
 
 .qualities__text {
