@@ -1,15 +1,21 @@
 .qualities {
   padding: 60px 0;
   @media screen and (min-width: 1200px) {
-    max-width: 1200px;
     padding: 94px 0;
   }
 }
 
 .qualities__item {
+  &:not(:first-child) {
+    margin-top: 30px;
+  }
+
   @media screen and (min-width: 768px) {
     max-width: 768px;
     width: 354px;
+    &:not(:first-child) {
+      margin-top: 0;
+    }
   }
   @media screen and (min-width: 1200px) {
     max-width: 1200px;
@@ -54,7 +60,10 @@
 // =======================================
 
 .direction {
-  padding: 0 0 94px 0;
+  display: none;
+  @include desktop {
+    display: block;
+  padding: 0 0 94px 0;}
 }
 
 .direction__list {

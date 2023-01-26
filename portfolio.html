@@ -20,16 +20,16 @@
   <header class="header">
     <div class="container header__container">
       <nav class="navigation">
-        <a class="logo" href="./index.html">
+        <a class="header__logo" href="./index.html">
           <span class="logo__web">Web</span>
           <span class="logo__studio">Studio</span></a>
   
         <ul class="menu list">
           <li class="menu__item">
-            <a href="./index.html" class="menu__link ">Студія</a>
+            <a href="./index.html" class="menu__link current">Студія</a>
           </li>
           <li class="menu-item">
-            <a href="./portfolio.html" class="menu__link current">Портфоліо</a>
+            <a href="./portfolio.html" class="menu__link">Портфоліо</a>
           </li>
           <li class="menu-item"><a href="" class="menu__link">Контакти</a></li>
         </ul>
@@ -48,6 +48,44 @@
             </svg>+38 096 111 11 11</a>
         </li>
       </ul>
+      <button type="button" class="menu-open button" data-menu-open><svg class="open-icon" width="24" height="16">
+          <use href="./images/icons.svg#icon-menu_24px"></use>
+        </svg></button>
+    </div>
+    <div class="mob-menu container is-hidden " data-menu>
+  
+      <div class="mob-box">
+        <button type="button" class="menu-close button" data-menu-close><svg class="close-icon" width="18.67"
+            height="18.67">
+            <use href="./images/icons.svg#icon-x"></use>
+          </svg></button>
+  
+        <ul class="mob-list list">
+          <li class="mob-item">
+            <a href="./index.html" class="mob-link">Студія</a>
+          </li>
+          <li class="mob-item">
+            <a href="./portfolio.html" class="mob-link">Портфоліо</a>
+          </li>
+          <li class="mob-item"><a href="" class="mob-link">Контакти</a></li>
+        </ul>
+        </ul>
+      </div>
+  
+      <div class="mob-wrap">
+        <ul class="relation list">
+          <li class="relation-item"><a href="tel:+380961111111" class="relation-tel">+38 096 111 11 11</a></li>
+          <li class="relation-item"><a href="mailto:info@devstudio.com" target="_blank" rel="noopener noreferrer"
+              class="relation-mail">info@devstudio.com</a></li>
+        </ul>
+  
+        <ul class="mob-soc list">
+          <li class="mob-soc-item"><a href="#" class="mob-soc-link">Instagram</a></li>
+          <li class="mob-soc-item"><a href="#" class="mob-soc-link">Twitter</a></li>
+          <li class="mob-soc-item"><a href="#" class="mob-soc-link">Facebook</a></li>
+          <li class="mob-soc-item"><a href="#" class="mob-soc-link">LinkedIn</a></li>
+        </ul>
+      </div>
     </div>
   </header>
 
@@ -231,77 +269,78 @@
     </section>
   </main>
 
-  <footer class="footer list">
-    <div class="container box-footer">
-      <div class="box-address">
-        <a class="logo" href="./index.html"><span class="logo__web">Web</span><span class="logo__studio">Studio</span></a>
-  
-        <address>
-          <ul class="address list">
-            <li class="footer-item">
-              <a class="footer-address" href="https://goo.gl/maps/MC3FKYj6ZszySW3c8" target="_blank"
-                rel="noreferrer noopener">
-                м. Київ, пр-т Лесі Українки, 26 </a>
-            </li>
-            <li class="footer-item">
-              <a class="footer-contact" href="mailto:info@devstudio.com" target="_blank">info@devstudio.com</a>
-            </li>
-            <li class="footer-item">
-              <a class="footer-contact" href="tel:+380961111111">+38 096 111 11 11</a>
-            </li>
-          </ul>
-        </address>
-      </div>
-  
-      <div class="box-soc-footer">
-        <p class="soc-title">приєднуйтесь</p>
-  
-        <ul class="soc-icon-footer-list list">
-          <li class="item-icon-footer">
-            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="footer-soc-linc">
-              <svg class="soc-icon-footer" width="20" height="20">
-                <use href="./images/icons.svg#icon-instagram-2"></use>
-              </svg>
-            </a>
+<footer class="footer list">
+  <div class="container box-footer">
+    <div class="box-address">
+      <a class="footer-logo" href="./index.html"><span class="logo__web">Web</span><span
+          class="logo__studio">Studio</span></a>
+
+      <address>
+        <ul class="address list">
+          <li class="footer-item">
+            <a class="footer-address" href="https://goo.gl/maps/MC3FKYj6ZszySW3c8" target="_blank"
+              rel="noreferrer noopener">
+              м. Київ, пр-т Лесі Українки, 26 </a>
           </li>
-          <li class="item-icon-footer">
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="footer-soc-linc">
-              <svg class="soc-icon-footer" width="20" height="20">
-                <use href="./images/icons.svg#icon-twitter-1"></use>
-              </svg>
-            </a>
+          <li class="footer-item">
+            <a class="footer-contact" href="mailto:info@devstudio.com" target="_blank">info@devstudio.com</a>
           </li>
-          <li class="item-icon-footer">
-            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" class="footer-soc-linc">
-              <svg class="soc-icon-footer" width="20" height="20">
-                <use href="./images/icons.svg#icon-facebook-1"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="item-icon-footer">
-            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" class="footer-soc-linc">
-              <svg class="soc-icon-footer" width="20" height="20">
-                <use href="./images/icons.svg#icon-linkedin-1"></use>
-              </svg>
-            </a>
+          <li class="footer-item">
+            <a class="footer-contact" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
-      </div>
-      <div class="subscription-wrap">
-        <p class="subscription-text">Підпишіться на розсилку</p>
-        <form class="subscription-form">
-  
-          <input type="email" name="email" required placeholder="E-mail" class="subscription-input" maxlength="50">
-          <button type="submit" class="send-button button">Підписатися
-            <svg class="send-icon" width="24" height="24">
-              <use href="./images/icons.svg#icon-icon-send"></use>
-            </svg></button>
-  
-        </form>
-      </div>
+      </address>
     </div>
-  </footer>
-  
+
+    <div class="box-soc-footer">
+      <p class="soc-title">приєднуйтесь</p>
+
+      <ul class="soc-icon-footer-list list">
+        <li class="item-icon-footer">
+          <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="footer-soc-linc">
+            <svg class="soc-icon-footer" width="20" height="20">
+              <use href="./images/icons.svg#icon-instagram-2"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="item-icon-footer">
+          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="footer-soc-linc">
+            <svg class="soc-icon-footer" width="20" height="20">
+              <use href="./images/icons.svg#icon-twitter-1"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="item-icon-footer">
+          <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" class="footer-soc-linc">
+            <svg class="soc-icon-footer" width="20" height="20">
+              <use href="./images/icons.svg#icon-facebook-1"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="item-icon-footer">
+          <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" class="footer-soc-linc">
+            <svg class="soc-icon-footer" width="20" height="20">
+              <use href="./images/icons.svg#icon-linkedin-1"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="subscription-wrap">
+      <p class="subscription-text">Підпишіться на розсилку</p>
+      <form class="subscription-form">
+
+        <input type="email" name="email" required placeholder="E-mail" class="subscription-input" maxlength="50">
+        <button type="submit" class="send-button button">Підписатися
+          <svg class="send-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-icon-send"></use>
+          </svg></button>
+
+      </form>
+    </div>
+  </div>
+</footer>
+    <script src="./js/menu.js"></script>
 </body>
 
 </html>
